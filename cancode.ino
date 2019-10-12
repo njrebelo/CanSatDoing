@@ -47,5 +47,5 @@ void radio(){
     apc220.print("Pressure = ");
     apc220.print(bmp.readPressure());
     apc220.println(" psi");
-    acp220.println();
+    apc220.println();
 }
